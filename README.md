@@ -30,7 +30,7 @@ Template used to create a project based on Scrum
 ## Milestone
 - Sprint
 - Release
-### Project
+## Project
 Scrum Board
   
 | Product Backlog | Sprint Backlog | In Progress | In Review | Done |  
