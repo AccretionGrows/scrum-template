@@ -1,27 +1,41 @@
 # Scrum Template @ GitHub
 Template used to create a project based on Scrum
-### Label
-* Theme
-* Epic
-* Story Point
-* Backlog Type    
-  * User Story
-  * Product Infra
-  * Team Infra
-  * Spike
-  * Bug
-  * Refactor
-  * Improvement
-### Milestone
-* Sprint
-* Release
+## Label
+### Theme
+`Theme` labels allow virtual matrix of stories across epics
+  - `Theme: strategic goals`
+  - `Theme: product modules`
+  - `Theme: project phases`
+### Epic
+`Epic` labels allow grouping body of work that can be broken down into specific stories
+  - `Epic: business flow`
+### Type   
+`type` labels allow you to annotate backlog items
+  - `type: User Story`
+  - `type: Product Infra`
+  - `type: Team Infra`
+  - `type: Spike`
+  - `type: Bug`
+  - `type: Refactor`
+  - `type: Improvement`
+### Point
+`point` labels allow you to assign velocity points to backlog items
+  - `point: 1`
+  - `point: 2`
+  - `point: 3`
+  - `point: 5`
+  - `point: 8`
+  - `point: 13`
+  - `point: 21`
+## Milestone
+- Sprint
+- Release
 ### Project
-* Kanban Board
-  * Product Backlog
-  * Sprint Backlog
-  * In Progress
-  * In Review
-  * Done
+Scrum Board
+  
+| Product Backlog | Sprint Backlog | In Progress | In Review | Done |  
+| :---: | :---: | :---: | :---: | :---: |  
+| open<br>unmilestoned<br>unassigned | open<br>milestoned<br>unassigned | open<br>milestoned<br>assigned | open<br>milestoned<br>assigned<br>pull request reference | closed |  
 ## References
 * https://hugogiraudel.com/2015/08/13/github-as-a-workflow/
 * https://zube.io/blog/agile-project-management-workflow-for-github-issues/
